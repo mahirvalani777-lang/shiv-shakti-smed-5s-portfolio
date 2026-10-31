@@ -45,4 +45,4 @@ All eight sheets were inspected through their stored cell values and formulas. T
 - Relative asset links resolve to included files.
 - Original download checksum matches the extracted source.
 - Browser preview could not reach localhost; a local HTTP request was denied by the environment. No desktop/mobile screenshot or real-browser interaction validation was completed. Responsive layouts are implemented but visual verification remains outstanding.
-- Connected GitHub account: devtharad6475. No accessible repositories returned for mahirvalani777-lang. No remote repository or Pages deployment was created; no deployed URL was verified.
+- Repository created under mahirvalani777-lang through the signed-in browser session for that account. The original workbook was uploaded unchanged.

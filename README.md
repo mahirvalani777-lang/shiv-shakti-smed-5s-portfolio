@@ -14,19 +14,18 @@ Open `index.html` directly in a modern browser. No install, build, API keys or e
 - `assets/data.js`: 18 activity records transcribed from the original detailed sheet, with cell references
 - `assets/SMED_5S_ShivShakti.xlsx`: unchanged original workbook
 - `assets/favicon.svg`: local vector favicon
-- `.github/workflows/pages.yml`: GitHub Pages deployment
 - `EVIDENCE.md`: source notes, reconciliation and limitations
 
 ## Deploy to the requested GitHub account
 
 1. Sign in as `mahirvalani777-lang` and create a repository named `shiv-shakti-smed-5s-portfolio`.
-2. Upload the contents of this folder to the repository root, including `.github/workflows/pages.yml`. Use `main` as the default branch.
-3. In Settings → Pages → Build and deployment, choose **GitHub Actions**.
-4. In Actions, run **Deploy portfolio to Pages** (or push to main).
+2. Upload the contents of this folder to the repository root, including `index.html` and `assets/`. Use `main` as the default branch.
+3. In Settings → Pages → Build and deployment, choose **Deploy from a branch**, then **main** and **/(root)**.
+4. Click **Save**. Future commits on main automatically publish.
 5. Wait for deployment to succeed. Expected address: `https://mahirvalani777-lang.github.io/shiv-shakti-smed-5s-portfolio/`.
 6. Verify the page at desktop and phone widths. Switch between data bases, filter activities, select activity details, select each 5S practice and download the workbook. Compare its SHA-256 with the value in EVIDENCE.md.
 
-The expected URL is not a claim that deployment exists. The connected account was `devtharad6475`; no repositories under the requested owner were accessible through that connection. Publication was therefore not attempted under another identity.
+Repository owner: `mahirvalani777-lang`. Files were uploaded through the signed-in browser session for that account.
 
 ## Evidence and claim policy
 
@@ -40,4 +39,4 @@ The requester explicitly authorized public release of the original workbook, inc
 
 ## Verification
 
-The original archive was extracted and all eight worksheet cell contents and formulas were inspected read-only. Detailed rows were independently summed (86 current, 40 target, 46 potential). JavaScript syntax and file references were checked. See EVIDENCE.md for the source file checksum and further discrepancies. Live GitHub Pages verification remains unavailable until deployment through the requested account.
+The original archive was extracted and all eight worksheet cell contents and formulas were inspected read-only. Detailed rows were independently summed (86 current, 40 target, 46 potential). JavaScript syntax and file references were checked. See EVIDENCE.md for the source file checksum and further discrepancies. Deployment status is available in repository Settings > Pages.
